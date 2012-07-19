@@ -1,0 +1,68 @@
+/*-------------------------------------------------------+
+| mSchool V2
+| Copyright (C) 2011 - 2012 Христо Димитров & Ясен Георгиев
+| http://www.mschool.shareit.bg/
++--------------------------------------------------------+
+| Име на файла: admin/mbar.css
++--------------------------------------------------------+
+| Тази програма се реализира като свободен софтуер
+| под лиценза Affero GPL. Вие можете да разпространявате
+| и/или да модифицирате mSchool под правилата на GNU/GPL.
+| Лиценза можете да го прочете във файла license.txt.
+| Ако искате да премахнете текста кой е създал системата,
+| трява да се свържeте със създателите на mSchool.
++--------------------------------------------------------*/
+
+#head ul 
+{
+    margin: 0;
+    padding: 0;
+    list-style: none; 
+}
+
+#head ul.main li
+{
+    position: relative;
+    float: left;
+    padding: 0 3px 0 0;
+}
+
+#head ul.main li a, #head ul.main li a:link, #head ul.main li a:visited 
+{
+    float: left;
+}
+
+#head ul.main li a#home:hover
+{
+    background-color: #ff0000;
+}
+
+#head ul.main li ul.sub 
+{
+    display: none;
+    position: absolute;
+    top: 20px;
+    border: 1px solid #646464;
+    background-color: #f0f0f0;
+    box-shadow: 1px 2px 3px #8c8c8c;
+    -moz-box-shadow: 1px 2px 3px #8c8c8c;
+    -webkit-box-shadow: 1px 2px 3px #8c8c8c;
+    
+}
+
+#head ul.main li ul.sub li a, #head ul.main li ul.sub li a:link, #head ul.main li ul.sub li a:visited 
+{
+    padding-left: 28px;
+    width: 270px;
+}
+
+#head ul.main li ul.sub li a:hover 
+{
+
+}
+#head ul.main li ul.sub li ul.sub
+{
+    position: absolute;
+    top: -1px;
+    left: 250px;
+}

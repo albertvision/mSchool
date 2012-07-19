@@ -1,0 +1,81 @@
+/*-------------------------------------------------------+
+| mSchool V1.02
+| Copyright (C) 2011 - 2012 Христо Димитров & Ясен Георгиев
+| http://www.mschool.shareit.bg/
++--------------------------------------------------------+
+| Име на файла: install/index.php
++--------------------------------------------------------+
+| Тази програма се реализира като свободен софтуер
+| под лиценза Affero GPL. Вие можете да разпространявате
+| и/или да модифицирате mSchool под правилата на GNU/GPL.
+| Лиценза можете да го прочете във файла licene.txt.
+| Ако искате да премахнете текста кой е създал системата,
+| трява да се свържeте със създателите на mSchool.
++--------------------------------------------------------*/
+
+body {
+    background-color:#C7F0FC;
+    font-family: "Comic Sans MS","arial","sans-serif";
+}
+#container {
+    background-color:white;
+    width:700px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+#container img {
+    width: 700px;
+    border-bottom: 2px solid;
+}
+.content {
+    padding:5px;
+    text-align: left;
+}
+.content .title
+{
+    text-align: center;
+    font-size: 15pt;
+}
+.content .title hr
+{
+    border: 1px solid;
+}
+input
+{
+    border: 1px solid;
+	font-family: "Arial","sans-serif";
+}
+textarea
+{
+    border: 1px solid;
+	font-family: "Arial","sans-serif";
+	
+}
+input[type=submit]
+{
+    padding: 5px;
+    background-color: #C7F0FC;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+input[type=submit]:hover
+{
+    background-color: #78e0ff;
+}
+button
+{
+    padding: 5px;
+    background-color: #C7F0FC;
+    border: 1px solid;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+button:hover
+{
+    background-color: #78e0ff;
+}
+.footer {
+    padding:5px;
+    text-align: left;
+}

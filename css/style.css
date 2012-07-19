@@ -1,0 +1,250 @@
+/*-------------------------------------------------------+
+| mSchool V2
+| Copyright (C) 2011 - 2012 Христо Димитров & Ясен Георгиев
+| http://www.mschool.shareit.bg/
++--------------------------------------------------------+
+| Име на файла: css/syle.css
++--------------------------------------------------------+
+| Тази програма се реализира като свободен софтуер
+| под лиценза Affero GPL. Вие можете да разпространявате
+| и/или да модифицирате mSchool V2 под правилата на GNU/GPL.
+| Лиценза можете да го прочете във файла license.txt.
+| Ако искате да премахнете текста кой е създал системата,
+| трява да се свържeте със създателите на mSchool V2.
++--------------------------------------------------------*/
+
+html 
+{
+    height:100%;
+}
+body
+{
+    padding: 0; 
+    margin:0;
+    color: #0E2F43;
+    height:100%;
+    background-color: #63AFDE;
+    min-width: 1000px;
+    font-family: Arial, Helvetica, Sans-Serif;
+    font-size: 13px;
+    text-align: center;
+    
+}
+h2
+{
+    color: #4B7995;
+    font-size: 20px;
+    margin: 0;
+}
+#container {
+    position: relative;
+    padding: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+#menu {
+    margin: 0 auto;
+    height: 40px;
+    width: 984px;
+    background: url('../images/nav.png');
+    background-repeat: no-repeat;
+    padding: 10px;
+}
+
+#menu a
+{
+    text-decoration: none;
+    padding: 5px;
+    margin-right: 10px;
+    color: #000;
+    font-size: 13px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+#menu a.active
+{
+    background-color: #83c1fe;
+}
+#menu a:hover
+{
+    background-color: #52a7fe;
+    text-align: center;
+    border-radius: 5px;
+}
+#header
+{
+    margin: 0 auto;
+    margin-top: -20px;
+    width: 984px;
+    height: 224px;
+    background: url('../images/header.png');
+    background-repeat: no-repeat;
+    padding: 10px;
+
+}
+#header a
+{
+    color: #fff;
+    text-decoration: none;
+}
+#header .logo
+{
+    width: 194px;
+    height: 173px;
+    background-image: url('../images/header-logo.png');
+    float: left;
+}
+#header .school-info
+{
+    margin-left: 194px;
+    margin-top: 80px;
+    text-align: left;
+    font-weight: bold;
+    color: #fff;
+}
+#header .name
+{
+    font-size: 25pt;
+}
+#header .town
+{
+    font-size: 18pt;
+}
+#content
+{
+    text-align: left;
+    margin: 0 auto;
+    width: 984px;
+    min-height: 300px;
+    background-image: url('../images/content.png');
+    background-repeat: repeat-y;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: -20px;
+}
+#content .left-bar
+{
+    padding-top: 10px;
+    float: left;
+    width: 200px;
+}
+#content .left-bar .panel
+{
+    margin-bottom: 5px;
+}
+#content .left-bar .title
+{
+    color: #5487A6;
+    font-size: 14px;
+    font-weight: bold;
+    background-image: url('../images/blockheader.png');
+    background-repeat: no-repeat;
+    padding: 7px 11px 0px 27px;
+    height: 30px;
+}
+#content .left-bar .content
+{
+    color: #0D2C3F;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+#content ul
+{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    color: #021722;
+}
+#content li
+{
+    list-style-type: none;
+    background-image: url('../images/blockcontentbullets.png');
+    background-repeat: no-repeat;
+    padding-left: 12px;
+    display: block;
+}
+#content a
+{
+    color: #429ED7;
+}
+#content a:hover
+{
+    color: #2893d5;
+}
+#content a:visited
+{
+    color: #429ED7;
+}
+/* Main Content */
+#content .main-content
+{
+    min-height: 300px;
+    margin-left: 200px;
+    padding: 10px;
+    width: 545px;
+    background-color: #fff;
+}
+
+/* Rigth bar */
+#content .right-bar
+{
+    padding-top: 10px;
+    vertical-align:text-top;
+    width: 210px;
+    float: right;
+}
+#content .right-bar .panel
+{
+    margin-bottom: 5px;
+}
+#content .right-bar .title
+{
+    color: #5487A6;
+    font-size: 14px;
+    font-weight: bold;
+    background-image: url('../images/blockheader.png');
+    background-repeat: no-repeat;
+    padding: 7px 11px 0px 27px;
+    height: 30px;
+}
+#content .right-bar .content
+{
+    color: #0D2C3F;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+#footer
+{
+    margin: 0 auto;
+    width: 993px;
+    background-image: url('../images/footer.png');
+    background-repeat: no-repeat;
+    padding: 5px;
+    height:40px
+}
+#footer a
+{
+    color: #2993d5;
+    text-decoration: none;
+}
+#footer a:hover
+{
+    color: #007bc7;
+}
+#footer a:visited
+{
+    color: #2993d5;
+}
+#createdby
+{
+    font-size: 8pt;
+}
+#createdby a
+{
+    font-size: 8pt;
+    color: #000;
+    text-decoration: none;
+}
